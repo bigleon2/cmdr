@@ -1,6 +1,6 @@
 # SOURCE — superposition écosystème (générée, ne pas modifier ici)
 
-- Généré le : 2026-11-06T19:05:25Z · source : bigleon2/KNOWLEDGE @ d3871693d1da5b49634f650f78f52ab546b037bf par scripts/ecosystem/cmdr-overlay-sync.py
+- Généré le : 2026-11-06T19:39:53Z · source : bigleon2/KNOWLEDGE @ 048821da0c355a071039ab86caa686f0c082587c par scripts/ecosystem/cmdr-overlay-sync.py
 - Mention : fichiers générés, ne pas modifier ici
 - Sélection : ecosystem/selection-tsi.yaml (famille TSI complète — MK2 ET MK3)
 
@@ -11,12 +11,13 @@
 - skills/tsi-architect/evals/trigger_evals.json  c461faf9b179d4d5f36a21896a8144312db200dd40ac250f49afa719a86db491
 - skills/tsi-architect/references/referentiel-structures-tsi.md  8ac31296ace5b4053ef3b9383dbd28b49b081272209ddb8d1496f4d81aadeb44
 - skills/tsi-architect/tsi-architect.agent  918bf517026fdbe855ddd9a3f12a0e038fd4bdce8c0df68bcce27823d228ea25
-- skills/tsi-validator/SKILL.md  5c91f862f4733b057f6e1522d7106c7c25c9936b596a1348a4708a3c3dcf42a8
+- skills/tsi-validator/SKILL.md  c011fc69c6a140e5cf4715515f19a8c592aa32593b09b992251860f75899bfdd
 - skills/tsi-validator/evals/evals.json  3487bcc39f4fa941c98d1707e29448d001fc5807ffb99cd600e92212daae3a04
 - skills/tsi-validator/evals/trigger_evals.json  451611d4307c59361b0391abaaea1255558b22e7e2dbd2643cecfc219dfde9df
 - skills/tsi-validator/samples/echantillon-invalide.tsi  b61365ec8ebfc4c3a2d0075084bdabae4c654cf939fce6f1009595fd9b55df2c
 - skills/tsi-validator/samples/echantillon-valide.tsi  4ee8237eb670b7c1421d5a978fb3b1c80ca9792b6056227d36dafc0083ca45b8
-- skills/tsi-validator/scripts/valider-tsi.py  89350e8b5e23b6203211079e9bc960bc99006c98f898a59fb47c85ba1a8f7b0f
+- skills/tsi-validator/scripts/__pycache__/valider-tsi.cpython-312.pyc  9f97f9bb7bf3a8f7cb718d07581b11ac81a87b83f60122bcc71be35fcb29e46e
+- skills/tsi-validator/scripts/valider-tsi.py  cc2d053e5729de778fdf028e134f975f34871cd0fd8acb9d1c960e01b48d52a7
 - skills/multi-shift-architect/SKILL.md  2b1bc991b7585975fcc0c3929a180347677a2e4e43f6575a1bbbba421a422963
 - skills/multi-shift-architect/evals/evals.json  ee4ccbdf91bf61bad0a6a03e3e51be41e07cd5a968ca89bfa656491afaf54a79
 - skills/multi-shift-architect/evals/trigger_evals.json  6d3ec22992babf74995b478a5098cdfa2706ca9bf61ba0d5cb4969bdbaf0cd4f
