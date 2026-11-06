@@ -1,6 +1,6 @@
 # SOURCE — superposition écosystème (générée, ne pas modifier ici)
 
-- Généré le : 2026-11-06T19:39:53Z · source : bigleon2/KNOWLEDGE @ 048821da0c355a071039ab86caa686f0c082587c par scripts/ecosystem/cmdr-overlay-sync.py
+- Généré le : 2026-11-06T19:42:02Z · source : bigleon2/KNOWLEDGE @ 048821da0c355a071039ab86caa686f0c082587c par scripts/ecosystem/cmdr-overlay-sync.py
 - Mention : fichiers générés, ne pas modifier ici
 - Sélection : ecosystem/selection-tsi.yaml (famille TSI complète — MK2 ET MK3)
 
@@ -16,7 +16,6 @@
 - skills/tsi-validator/evals/trigger_evals.json  451611d4307c59361b0391abaaea1255558b22e7e2dbd2643cecfc219dfde9df
 - skills/tsi-validator/samples/echantillon-invalide.tsi  b61365ec8ebfc4c3a2d0075084bdabae4c654cf939fce6f1009595fd9b55df2c
 - skills/tsi-validator/samples/echantillon-valide.tsi  4ee8237eb670b7c1421d5a978fb3b1c80ca9792b6056227d36dafc0083ca45b8
-- skills/tsi-validator/scripts/__pycache__/valider-tsi.cpython-312.pyc  9f97f9bb7bf3a8f7cb718d07581b11ac81a87b83f60122bcc71be35fcb29e46e
 - skills/tsi-validator/scripts/valider-tsi.py  cc2d053e5729de778fdf028e134f975f34871cd0fd8acb9d1c960e01b48d52a7
 - skills/multi-shift-architect/SKILL.md  2b1bc991b7585975fcc0c3929a180347677a2e4e43f6575a1bbbba421a422963
 - skills/multi-shift-architect/evals/evals.json  ee4ccbdf91bf61bad0a6a03e3e51be41e07cd5a968ca89bfa656491afaf54a79
