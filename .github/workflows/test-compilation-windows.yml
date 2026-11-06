@@ -4,6 +4,8 @@
 name: Test compilation Windows (CMDR)
 
 on:
+  push:
+    branches: [test/compilation-windows]
   workflow_dispatch:
 
 jobs:
