@@ -1,0 +1,49 @@
+# Test de compilation de CMDR sous Windows (Task 51/52/53 — PM ghorg-to-ecosysteme.md §4 :
+# « ni compiler, ni lancer » sous Linux → runner GitHub windows-latest, dérogation documentée).
+# Branche dédiée test/compilation-windows (jamais la branche par défaut — règle n°3 du MD).
+name: Test compilation Windows (CMDR)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Pack de ciblage .NET Framework 4.5 (assurance — couvre v4.5/4.5.1/4.5.2)
+        run: choco install netfx-4.5.2-devpack -y --no-progress
+        continue-on-error: true
+
+      - name: NuGet restore (packages.config)
+        run: nuget restore cmdr\cmdr.sln
+
+      - name: Compilation (Release | Any CPU)
+        run: msbuild cmdr\cmdr.sln "/p:Configuration=Release" "/p:Platform=Any CPU" /m /nologo /verbosity:minimal
+
+      - name: Artefacts (binaires Release)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cmdr-binaires-windows
+          path: |
+            cmdr/cmdr.Editor/bin/Release/
+            cmdr/cmdr.TsiLib/bin/Release/
+            cmdr/cmdr.MidiLib/bin/Release/
+            cmdr/cmdr.WpfControls/bin/Release/
+          if-no-files-found: warn
+
+      - name: Résumé
+        if: always()
+        shell: bash
+        run: |
+          echo "## Test compilation CMDR (Windows — windows-latest)" >> $GITHUB_STEP_SUMMARY
+          echo "Statut du job : ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "Chaîne : checkout → MSBuild → NuGet restore → build Release|Any CPU → artefacts" >> $GITHUB_STEP_SUMMARY
