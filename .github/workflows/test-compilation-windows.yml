@@ -1,6 +1,9 @@
 # Test de compilation de CMDR sous Windows (Task 51/52/53 — PM ghorg-to-ecosysteme.md §4 :
 # « ni compiler, ni lancer » sous Linux → runner GitHub windows-latest, dérogation documentée).
 # Branche dédiée test/compilation-windows (jamais la branche par défaut — règle n°3 du MD).
+# Run 1 (42258574189) : MSB3644 — assemblies de référence v4.5 absentes de l'image VS18/Server 2025
+# (le dev pack 4.5.2 choco ne couvre pas v4.5) → run 2 : assemblies de référence via le package
+# NuGet Microsoft.NETFramework.ReferenceAssemblies.net45 + FrameworkPathOverride (sans toucher au code source).
 name: Test compilation Windows (CMDR)
 
 on:
@@ -21,15 +24,16 @@ jobs:
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v2
 
-      - name: Pack de ciblage .NET Framework 4.5 (assurance — couvre v4.5/4.5.1/4.5.2)
-        run: choco install netfx-4.5.2-devpack -y --no-progress
-        continue-on-error: true
+      - name: Assemblies de référence .NET Framework 4.5 (package NuGet — image sans targeting pack v4.5)
+        run: nuget install Microsoft.NETFramework.ReferenceAssemblies.net45 -Version 1.0.3 -OutputDirectory "$env:RUNNER_TEMP\refasm"
 
       - name: NuGet restore (packages.config)
         run: nuget restore cmdr\cmdr.sln
 
       - name: Compilation (Release | Any CPU)
-        run: msbuild cmdr\cmdr.sln "/p:Configuration=Release" "/p:Platform=Any CPU" /m /nologo /verbosity:minimal
+        run: |
+          $fw = "$env:RUNNER_TEMP\refasm\Microsoft.NETFramework.ReferenceAssemblies.net45.1.0.3\build\.NETFramework\v4.5"
+          msbuild cmdr\cmdr.sln "/p:Configuration=Release" "/p:Platform=Any CPU" "/p:FrameworkPathOverride=$fw" /m /nologo /verbosity:minimal
 
       - name: Artefacts (binaires Release)
         uses: actions/upload-artifact@v4
@@ -48,4 +52,4 @@ jobs:
         run: |
           echo "## Test compilation CMDR (Windows — windows-latest)" >> $GITHUB_STEP_SUMMARY
           echo "Statut du job : ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
-          echo "Chaîne : checkout → MSBuild → NuGet restore → build Release|Any CPU → artefacts" >> $GITHUB_STEP_SUMMARY
+          echo "Chaîne : checkout → MSBuild → assemblies de référence NuGet (v4.5) → NuGet restore → build Release|Any CPU → artefacts" >> $GITHUB_STEP_SUMMARY
