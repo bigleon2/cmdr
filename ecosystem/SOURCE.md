@@ -1,35 +1,35 @@
 # SOURCE — superposition écosystème (générée, ne pas modifier ici)
 
-- Généré le : 2026-11-06T17:03:12Z · source : bigleon2/KNOWLEDGE @ fe07de3e40ee0d0bfc6219b45b16de83cdb056fe par scripts/ecosystem/cmdr-overlay-sync.py
+- Généré le : 2026-11-06T19:05:25Z · source : bigleon2/KNOWLEDGE @ d3871693d1da5b49634f650f78f52ab546b037bf par scripts/ecosystem/cmdr-overlay-sync.py
 - Mention : fichiers générés, ne pas modifier ici
 - Sélection : ecosystem/selection-tsi.yaml (famille TSI complète — MK2 ET MK3)
 
 ## Fichiers (chemin relatif  SHA-256)
 
-- skills/tsi-architect/SKILL.md  48dc64a9ed35665018eaf972d1f751c1892bf283210da0616f27976bcbf59a48
+- skills/tsi-architect/SKILL.md  cb6269ffa98058b796ecadd36d094e24a71d396c86c33a9aef97573c33481c45
 - skills/tsi-architect/evals/evals.json  f505ae004c8a30b42846b4c7b399418834bda5b7b19b815c5b1a8b76bb9b8e5c
 - skills/tsi-architect/evals/trigger_evals.json  c461faf9b179d4d5f36a21896a8144312db200dd40ac250f49afa719a86db491
 - skills/tsi-architect/references/referentiel-structures-tsi.md  8ac31296ace5b4053ef3b9383dbd28b49b081272209ddb8d1496f4d81aadeb44
 - skills/tsi-architect/tsi-architect.agent  918bf517026fdbe855ddd9a3f12a0e038fd4bdce8c0df68bcce27823d228ea25
-- skills/tsi-validator/SKILL.md  57e0280b5eea10190c82ca8a1fba63a590dc3a8cdf2580efb0d7df79dde3f1be
+- skills/tsi-validator/SKILL.md  5c91f862f4733b057f6e1522d7106c7c25c9936b596a1348a4708a3c3dcf42a8
 - skills/tsi-validator/evals/evals.json  3487bcc39f4fa941c98d1707e29448d001fc5807ffb99cd600e92212daae3a04
 - skills/tsi-validator/evals/trigger_evals.json  451611d4307c59361b0391abaaea1255558b22e7e2dbd2643cecfc219dfde9df
 - skills/tsi-validator/samples/echantillon-invalide.tsi  b61365ec8ebfc4c3a2d0075084bdabae4c654cf939fce6f1009595fd9b55df2c
 - skills/tsi-validator/samples/echantillon-valide.tsi  4ee8237eb670b7c1421d5a978fb3b1c80ca9792b6056227d36dafc0083ca45b8
 - skills/tsi-validator/scripts/valider-tsi.py  89350e8b5e23b6203211079e9bc960bc99006c98f898a59fb47c85ba1a8f7b0f
-- skills/multi-shift-architect/SKILL.md  538944b7b5c9a7870426045a6a0ca1dee25b0912a640acbe7c1af082298736d2
+- skills/multi-shift-architect/SKILL.md  2b1bc991b7585975fcc0c3929a180347677a2e4e43f6575a1bbbba421a422963
 - skills/multi-shift-architect/evals/evals.json  ee4ccbdf91bf61bad0a6a03e3e51be41e07cd5a968ca89bfa656491afaf54a79
 - skills/multi-shift-architect/evals/trigger_evals.json  6d3ec22992babf74995b478a5098cdfa2706ca9bf61ba0d5cb4969bdbaf0cd4f
 - skills/multi-shift-architect/references/matrice-couverture-s4-mk2.md  d85771f371560e1e686c28e2013e7f2762292a26908d7cc8c29d258a1791967d
-- skills/midi-doc-expert/SKILL.md  c98c4c4e8db957977606244b055ca6bd3f8f865220f9aadf70ee74489847c9ed
+- skills/midi-doc-expert/SKILL.md  3e50652a9a3ed87b8d778df02041388108e66d667a2b1783a3283f4e33042cb7
 - skills/midi-doc-expert/evals/evals.json  31f6b4c9c470bab08c9d31aea221ddf39cc09f2f216cbf797d4897bc6490e959
 - skills/midi-doc-expert/evals/trigger_evals.json  5138de3c6ec8d8179a998dff7ee14b635cc0d52095a928b9afd332b0c0828440
 - skills/midi-doc-expert/references/gabarit-document.md  31de57571c703d5672984abaa274d711ce207ed228d66c42a134e9bf0503a371
 - skills/midi-doc-expert/scripts/generer-doc-midi.py  3f5a5f80d5363b35278f7ac6d53f5c358dca79cd3a9661a6d5fda0937087176d
-- skills/orchestrateur-tsi/SKILL.md  34772e8e6e5db02c1880fa995ccdcdae3fbe0bddde78886ecc3ce28fe6fb1aa9
+- skills/orchestrateur-tsi/SKILL.md  1beb85d78a3b989f4a45807c5d24019c39d320d96d52711d1bd9b72dae1b8864
 - skills/orchestrateur-tsi/agent-TSI.agent  7e4343bd11be79007fd10c40bde8ff8bb9a5fb79c1d57cd9fdedabeb33a391c9
 - skills/orchestrateur-tsi/evals/trigger_evals.json  9083f18de97394d826c343873deb9c4daf65f9fa743517b6626a478542afeece
-- skills/analyse-doc-s4mk2/SKILL.md  822eef02f3cb466ce3a326ee6e64d09b0560fc813be1988bd3fa7db1322b4e41
+- skills/analyse-doc-s4mk2/SKILL.md  c8b6b138f6f80a11bd3b81d7871cc1a3c0e6e4e9a6105b995480332f80e75898
 - skills/analyse-doc-s4mk2/evals/trigger_evals.json  5f9e2055d656efe67561d4e3d2a7795c64c067835a6c01dd5bef1e2df0a480f6
 - skills/analyse-doc-s4mk2/references/correspondance-visuels.md  61a65f2a688929823950d37008e6d856b6ec76f77144bafe1cab84a9b6035c61
 - skills/analyse-doc-s4mk2/references/referentiel-g2.md  45b29b19d2b83406255b1172c4cdc0d1806df385d29dad95010fec1d729a7857
@@ -55,7 +55,7 @@
 - skills/analyse-doc-s4mk2/tests/journal/tr_05.json  887fb9108757387d1e068e5051b99dac1ff99925697c8bc5df9a197e2398ea43
 - skills/analyse-doc-s4mk2/tests/journal/tr_06.json  c98d28970e42d05c9841d2ac54b210004f7ba8e67ca009cf066c2c8c81a75c96
 - skills/analyse-doc-s4mk2/tests/run_all.py  c55718ec942a8b7838ea279c87dfa22dfb7691c0fb8e46138d1ec2480168e741
-- skills/inter-scripts/SKILL.md  9136d06299de2a904ab371f6b1e1c0f99a56fa1d80e8c134561ef9d1873e476c
+- skills/inter-scripts/SKILL.md  79f385101d04edf09e2c4d12c943d269b0bc60edaf53c925647325d6f5a1f5bf
 - skills/inter-scripts/evals/evals.json  6af87ad0f7aa5d2a4b55867eab7aa8fb9335664290252ef0e7fe865731c3923b
 - skills/inter-scripts/evals/trigger_evals.json  28a65a5d21201334cfca4406046e2a188937763e92a92b42a53fa6e90f3234f4
 - skills/inter-scripts/scripts/is_client.py  ba7b2b87b7e8dfff1ec4735bf176ad1a4cd42c5cb8d59abfca482cccd4ec2cee
