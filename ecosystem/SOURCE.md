@@ -1,0 +1,63 @@
+# SOURCE — superposition écosystème (générée, ne pas modifier ici)
+
+- Généré le : 2026-11-06T17:03:12Z · source : bigleon2/KNOWLEDGE @ fe07de3e40ee0d0bfc6219b45b16de83cdb056fe par scripts/ecosystem/cmdr-overlay-sync.py
+- Mention : fichiers générés, ne pas modifier ici
+- Sélection : ecosystem/selection-tsi.yaml (famille TSI complète — MK2 ET MK3)
+
+## Fichiers (chemin relatif  SHA-256)
+
+- skills/tsi-architect/SKILL.md  48dc64a9ed35665018eaf972d1f751c1892bf283210da0616f27976bcbf59a48
+- skills/tsi-architect/evals/evals.json  f505ae004c8a30b42846b4c7b399418834bda5b7b19b815c5b1a8b76bb9b8e5c
+- skills/tsi-architect/evals/trigger_evals.json  c461faf9b179d4d5f36a21896a8144312db200dd40ac250f49afa719a86db491
+- skills/tsi-architect/references/referentiel-structures-tsi.md  8ac31296ace5b4053ef3b9383dbd28b49b081272209ddb8d1496f4d81aadeb44
+- skills/tsi-architect/tsi-architect.agent  918bf517026fdbe855ddd9a3f12a0e038fd4bdce8c0df68bcce27823d228ea25
+- skills/tsi-validator/SKILL.md  57e0280b5eea10190c82ca8a1fba63a590dc3a8cdf2580efb0d7df79dde3f1be
+- skills/tsi-validator/evals/evals.json  3487bcc39f4fa941c98d1707e29448d001fc5807ffb99cd600e92212daae3a04
+- skills/tsi-validator/evals/trigger_evals.json  451611d4307c59361b0391abaaea1255558b22e7e2dbd2643cecfc219dfde9df
+- skills/tsi-validator/samples/echantillon-invalide.tsi  b61365ec8ebfc4c3a2d0075084bdabae4c654cf939fce6f1009595fd9b55df2c
+- skills/tsi-validator/samples/echantillon-valide.tsi  4ee8237eb670b7c1421d5a978fb3b1c80ca9792b6056227d36dafc0083ca45b8
+- skills/tsi-validator/scripts/valider-tsi.py  89350e8b5e23b6203211079e9bc960bc99006c98f898a59fb47c85ba1a8f7b0f
+- skills/multi-shift-architect/SKILL.md  538944b7b5c9a7870426045a6a0ca1dee25b0912a640acbe7c1af082298736d2
+- skills/multi-shift-architect/evals/evals.json  ee4ccbdf91bf61bad0a6a03e3e51be41e07cd5a968ca89bfa656491afaf54a79
+- skills/multi-shift-architect/evals/trigger_evals.json  6d3ec22992babf74995b478a5098cdfa2706ca9bf61ba0d5cb4969bdbaf0cd4f
+- skills/multi-shift-architect/references/matrice-couverture-s4-mk2.md  d85771f371560e1e686c28e2013e7f2762292a26908d7cc8c29d258a1791967d
+- skills/midi-doc-expert/SKILL.md  c98c4c4e8db957977606244b055ca6bd3f8f865220f9aadf70ee74489847c9ed
+- skills/midi-doc-expert/evals/evals.json  31f6b4c9c470bab08c9d31aea221ddf39cc09f2f216cbf797d4897bc6490e959
+- skills/midi-doc-expert/evals/trigger_evals.json  5138de3c6ec8d8179a998dff7ee14b635cc0d52095a928b9afd332b0c0828440
+- skills/midi-doc-expert/references/gabarit-document.md  31de57571c703d5672984abaa274d711ce207ed228d66c42a134e9bf0503a371
+- skills/midi-doc-expert/scripts/generer-doc-midi.py  3f5a5f80d5363b35278f7ac6d53f5c358dca79cd3a9661a6d5fda0937087176d
+- skills/orchestrateur-tsi/SKILL.md  34772e8e6e5db02c1880fa995ccdcdae3fbe0bddde78886ecc3ce28fe6fb1aa9
+- skills/orchestrateur-tsi/agent-TSI.agent  7e4343bd11be79007fd10c40bde8ff8bb9a5fb79c1d57cd9fdedabeb33a391c9
+- skills/orchestrateur-tsi/evals/trigger_evals.json  9083f18de97394d826c343873deb9c4daf65f9fa743517b6626a478542afeece
+- skills/analyse-doc-s4mk2/SKILL.md  822eef02f3cb466ce3a326ee6e64d09b0560fc813be1988bd3fa7db1322b4e41
+- skills/analyse-doc-s4mk2/evals/trigger_evals.json  5f9e2055d656efe67561d4e3d2a7795c64c067835a6c01dd5bef1e2df0a480f6
+- skills/analyse-doc-s4mk2/references/correspondance-visuels.md  61a65f2a688929823950d37008e6d856b6ec76f77144bafe1cab84a9b6035c61
+- skills/analyse-doc-s4mk2/references/referentiel-g2.md  45b29b19d2b83406255b1172c4cdc0d1806df385d29dad95010fec1d729a7857
+- skills/analyse-doc-s4mk2/scripts/analyser-pdf-mk2.py  ec1ea21d62b3a7d4e50a3db112b69b2aa6ccb8d60b5f1b6c779eda2abb07c6b1
+- skills/analyse-doc-s4mk2/scripts/analyser-zip-mk2.py  ee82d2c1aac058544baf013d2eb0112a84737c9cdecfb3952a257d9302df45eb
+- skills/analyse-doc-s4mk2/scripts/analyser_tsi_mk2.py  cbf059689c6a6aeeff83fbb75b53956ac92e5c994391ac321908e807a475aa81
+- skills/analyse-doc-s4mk2/scripts/coherence-non-tsi-mk2.py  00e2dd286e52789e44267bc61c2ed4c6ee9ecfc50eb93d4f0a04e9f6b042d73a
+- skills/analyse-doc-s4mk2/tests/journal/synthese.json  92cd1c3a66f834066d95a67f65693ee1110ce9b5ce54478de3afd2fa10c4bbcf
+- skills/analyse-doc-s4mk2/tests/journal/tf_01.json  280ee8ad3c521958ca89668b8cbb9fc832d12934bdcf12c23a5e488ee48ac1fe
+- skills/analyse-doc-s4mk2/tests/journal/tf_02.json  a5619067d1783ad34c3def2b991942cb780ed74f46bceb82bac3a41910f0da61
+- skills/analyse-doc-s4mk2/tests/journal/tf_03.json  89b17bbb90ae67ec75444ede6d0a8a6d8b337b9521e2507f9a5599a4b00a0852
+- skills/analyse-doc-s4mk2/tests/journal/tf_04.json  469a27b2c2dbdb9c64ae7bc28e60e58b056967210585e10ce69e7dd328bce33f
+- skills/analyse-doc-s4mk2/tests/journal/tf_05.json  0c71741112831738708611dc4252af76b20f2368d3272eaeeec1e435cc09717a
+- skills/analyse-doc-s4mk2/tests/journal/tf_06.json  58943c401928cff5b6487dd5b6b74262c784d32a3d1f343305150728891e46e2
+- skills/analyse-doc-s4mk2/tests/journal/tf_07.json  4c396ab385e07fb53b9525288bd12b9346a1317f1752fc1d838e72907b067d05
+- skills/analyse-doc-s4mk2/tests/journal/tf_08.json  5717191fa9d5c8e67f3d958f9b459287ea62b85066dfff856ced9d63d957df60
+- skills/analyse-doc-s4mk2/tests/journal/tf_09.json  ae9b2aaa9b402c96cd3f1adf8dab0fa235b5adce7b8c80c79fab381807b95f49
+- skills/analyse-doc-s4mk2/tests/journal/tf_10.json  51b7e89b06c468d775bd2d3e896faa556290e8b5d408847cd8316ce773f24d1f
+- skills/analyse-doc-s4mk2/tests/journal/tr_01.json  c849f606d8e6ddf2647579c25ffa8b3d8d2f24ebd6128b61aa3a7403f5bc38d2
+- skills/analyse-doc-s4mk2/tests/journal/tr_02.json  267bb69bdfa9a7b9438b9dedbcf771454b60b74c8df951c58980acc5ee14f38f
+- skills/analyse-doc-s4mk2/tests/journal/tr_03.json  217b052236a742cbfc1420979ae23f2eb1926f2e39333738bcef9af06a8c50ac
+- skills/analyse-doc-s4mk2/tests/journal/tr_04.json  73d1dffc3bbc7a00cd52c1f425b5e2c52c03617bdebc1735930133cd0fc1d710
+- skills/analyse-doc-s4mk2/tests/journal/tr_05.json  887fb9108757387d1e068e5051b99dac1ff99925697c8bc5df9a197e2398ea43
+- skills/analyse-doc-s4mk2/tests/journal/tr_06.json  c98d28970e42d05c9841d2ac54b210004f7ba8e67ca009cf066c2c8c81a75c96
+- skills/analyse-doc-s4mk2/tests/run_all.py  c55718ec942a8b7838ea279c87dfa22dfb7691c0fb8e46138d1ec2480168e741
+- skills/inter-scripts/SKILL.md  9136d06299de2a904ab371f6b1e1c0f99a56fa1d80e8c134561ef9d1873e476c
+- skills/inter-scripts/evals/evals.json  6af87ad0f7aa5d2a4b55867eab7aa8fb9335664290252ef0e7fe865731c3923b
+- skills/inter-scripts/evals/trigger_evals.json  28a65a5d21201334cfca4406046e2a188937763e92a92b42a53fa6e90f3234f4
+- skills/inter-scripts/scripts/is_client.py  ba7b2b87b7e8dfff1ec4735bf176ad1a4cd42c5cb8d59abfca482cccd4ec2cee
+- skills/inter-scripts/scripts/orchestrer.py  137086138b927182cc5f097c4e9a6ad991b7be92853e0fed69f22c4da72d4e4d
+- skills/inter-scripts/scripts/registre.json  99e7850185cbce63cba580ce6e9114140eb3788e2e79b7da0a17a0f14a7b85dd

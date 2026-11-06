@@ -1,0 +1,26 @@
+[
+  {
+    "query": "Documente ce mapping TSI validé : tableaux de référence MIDI et états LED.",
+    "should_trigger": true
+  },
+  {
+    "query": "Génère la notice du Freeze Mode du S4 MK3 en Markdown et JSON.",
+    "should_trigger": true
+  },
+  {
+    "query": "Rédige la documentation pédagogique de ce mapping multi-shift (activation, slices, réglages).",
+    "should_trigger": true
+  },
+  {
+    "query": "Exporte l'état des LED de ce contrôleur pour la notice technique.",
+    "should_trigger": true
+  },
+  {
+    "query": "Valide la conformité de ce TSI au schéma de référence.",
+    "should_trigger": false
+  },
+  {
+    "query": "Conçois les couches SHIFT d'un nouveau mapping.",
+    "should_trigger": false
+  }
+]
